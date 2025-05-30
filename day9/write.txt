@@ -1,0 +1,5 @@
+teacher details arte as fallows : 
+name : viniiiiii
+age : 20
+branch : aiml
+experience : 5

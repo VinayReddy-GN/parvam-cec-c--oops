@@ -1,0 +1,24 @@
+the car details are as fallow : 
+car brand : tatta
+car model : curve
+car varient : desile
+launch year : 1878000312
+offer price:rs. 456789
+car has these features : tatta
+	1.
+	2.4wheels
+	3.4tyes
+	4.6seats
+-------------------------------
+the car details are as fallow : 
+car brand : audi
+car model : q6
+car varient : petrol
+launch year : 0
+offer price:rs. 1200000
+car has these features : audi
+	1.4wheels
+	2.4tyres
+	3.4seats
+	4.1key
+-------------------------------

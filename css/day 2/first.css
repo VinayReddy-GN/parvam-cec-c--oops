@@ -1,0 +1,36 @@
+p{
+    color:red;
+    font-size: 20px;
+}
+
+.link{
+    font-size: 40px;
+}
+
+a{
+    color: blue;
+    background-color: aqua;
+}
+#para3{
+    font: size 30px pink;
+    border: 4px dashed greenyellow;
+    margin-right: 10px;
+    padding-top: 3px;
+    font-style: inherit;
+    letter-spacing: 0cqb;
+
+}
+
+a,
+p,
+div{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#para2,#para3{
+    background-color: blue;
+
+}
+*{
+    color: coral;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>java script object notation</title>
+    <h1>java script object notation</h1>
+    <p>json will not contain function</p>
+    <p>json will store everything in side a string except boolean values </p>
+    <p>it will communate and transforms the code tyo frontend to backend</p>
+</head>
+<body>
+    <script>
+        let obj1={
+            firstname:"vwx",
+            lastname:"yz",
+            age:20,
+            email:"vinayreddy9105@gmail.com"
+        }
+
+        console.log("obj1:",obj1);
+        console.log("typeof obj1:",typeof obj1);
+        let str1 = JSON.stringify(obj1);
+
+        console.log("str1:",str1);
+        console.log("typeof str1:",typeof str1);
+        let obj2 = JSON.parse(str1)
+
+        console.log("obj2:",obj2);
+        console.log("typeof obj1:",typeof obj2);
+        
+
+    </script>
+</body>
+</html>

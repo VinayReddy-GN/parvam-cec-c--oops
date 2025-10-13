@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>loops in java
+        <script></script>
+    </title>
+</head>
+
+<body>
+    <script>
+        //for loop
+        for (let i = 1; i <= 5; i++) { //for loop is used to iterate a specific
+            console.log("num:" + i) // number of times,control the iteration loop
+        }
+        
+    
+        //for of loop
+        let number = "number";//it is designed for iterating directly over
+        for(let letter of number){//over the values of iteratable object
+            console.log(letter);
+        }
+    
+        //for in loop
+        let person={//iterate over the enumerable prperty names(key)in objects
+            name:"vinay",
+            age:20,
+            city:"chitradurga"
+        };
+        for(let key in person){
+            console.log(key+":"+person[key]);
+        }
+
+        //for each loop
+        let fruits = ["apple","chiken","banana"];//it will executes a
+        fruits.forEach (function(fruit){//provided function once each elements in
+            console.log(fruit);//an arrays
+        });
+
+        //while loop
+        let i=1; // executes a block of code saperatly as long
+        while(i<=6){//as a specified conditiom is true
+            console.log("number:"+i);
+            i++;
+        }
+
+        //do while loop
+        let num=1;
+        do{ // the do block runs first
+            console.log("this runs once even if condition is false!");
+            num++; //even if the condition is false the first time,the loop
+        }while(num<5);//runs once before stopping
+
+
+
+
+
+    </script>
+</body>
+
+</html>

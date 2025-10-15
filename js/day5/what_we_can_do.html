@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>what we can do the changes </title>
+</head>
+<body>
+    <p> 1.we can change the content of htm.</p>
+    <h1 id="title">welcome to JS</h1>
+    <button type="button" onclick="document.getElementById('title').innerText='text is changed by using js'">change the content of h1</button>
+
+
+
+    <p> 2.we can change the html attribute.</p>
+    <img src="./off.png" alt="off" id="bulb">
+    <button type="button" onclick="document.getElementById('bulb').src='./on.jpg'">turn on</button>
+    <button type="button" onclick="document.getElementById('bulb').src='./off.png'">turn off</button>
+
+
+
+    <p> 3.we can change the css.</p>
+    <div id="desc">Lorem ipsum dolor sit amet.</div>
+    <button onclick="document.getElementById('desc').style.backgroundColor='red'">change background</button>
+
+
+
+    <p> 4.we can add the html element.</p>
+    <h3 id="title3">Lorem, ipsum dolor.</h3>
+    <button onclick="document.getElementById('title3').style.display='none'">Hide element</button>
+
+
+
+    <p> 5.we can show the html element.</p>
+    <h3 id="heading_2" style="display:none;">welcome to JS</h3>
+    <button onclick="document.getElementById('heading_2').style.display='block'">Show element</button>
+</body>
+</html>
